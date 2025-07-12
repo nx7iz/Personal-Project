@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #333;
+  transition: all 0.3s;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: #ccc;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
+body.dark-mode section {
+  background-color: #1e1e1e;
+}
+body.dark-mode header {
+  background: #222;
+}
+body.dark-mode footer {
+  background: #111;
+}
+
+/* Buttons */
+#darkModeToggle,
+#topBtn {
+  position: fixed;
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  z-index: 1000;
+}
+#darkModeToggle {
+  top: 20px;
+}
+#topBtn {
+  bottom: 20px;
+  display: none;
+}
